@@ -1,0 +1,10 @@
+#!/bin/bash
+echo " ";
+echo "=====================================";
+echo " Installing UniFi Network Controller ";
+echo "=====================================";
+echo " ";
+sudo apt update
+sudo apt upgrade -y
+sudo apt install rng-tools
+sudo nano /etc/default/rng-tools-debian
